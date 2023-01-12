@@ -1,0 +1,28 @@
+.footer-social {
+
+  &__title {
+    margin-bottom: 16px;
+
+    @include mobile {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 20px; 
+    font-size: 14px;
+    line-height: 17px; 
+
+  @include tablet {
+    margin-bottom: 16px;
+    line-height: 15px;
+    margin-bottom: 16px;
+  }
+  }
+
+  &__list {
+    display: flex;
+    gap: 10px;
+  }
+
+}
